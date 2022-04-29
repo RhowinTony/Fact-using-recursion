@@ -1,6 +1,5 @@
 #Write a program to calculate factorial of a number using recursion
 
-
 def fact(n):
     if n == 0:
         return 1
@@ -24,6 +23,3 @@ def main():
         print(f"The factorial is {fact(checked_int)}")
 
 main()
-        
-
-
