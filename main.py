@@ -7,7 +7,9 @@ def fact(n):
     else:
         return n*fact(n-1)
 
-
-
-input_val = int(input("Enter any number "))
-print(fact(input_val))
+try:
+    input_val = int(input("Enter any number "))
+except ValueError as e:
+    print(f"Input is not valid, Please re-run with valid input. - {e}")
+else:
+    
